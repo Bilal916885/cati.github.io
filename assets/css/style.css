@@ -22,7 +22,7 @@ body{
     background-repeat: no-repeat; 
     width: 100%;
     position: relative;
-    height: 180dvh; 
+    height: 100dvh; 
     /* background-attachment: fixed; */
 
 
@@ -169,7 +169,7 @@ body{
     background-repeat: no-repeat; 
     width: 100%;
     position: relative;
-    height: 220dvh; 
+    height: 200dvh; 
     /* background-attachment: fixed; */
 
 
@@ -308,7 +308,7 @@ body{
         /* height: 90%; */
          height: 120dvh;    
     }
-    .end{
+    .endd{
         display: block;
         display: flex;
         justify-content: center;
