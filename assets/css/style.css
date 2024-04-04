@@ -1,0 +1,677 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body{
+  background:#ccdd51;
+    overflow-x: hidden;
+    
+    
+}
+/* -------- */
+.main-bg{
+    background-image: url(../images/bg.png); 
+    background-size: cover; 
+    background-position:center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    position: relative;
+    height: 180dvh; 
+    /* background-attachment: fixed; */
+
+
+}
+.icns{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: end;
+    gap: 1vw; 
+    transform: translateX(-9vw);
+}
+.icns .fst img{
+    width: 19vw;
+    transform: translateX(3vw);
+    transition: .5s;
+
+    
+}
+.icns .fst img{
+    width: 4.7vw;
+    transition: .3s;
+
+    
+}
+.c1{
+    position: absolute;
+    width: 10.5vw;
+    left: 1%;
+    top: 48%;
+}
+.c2{
+    position: absolute;
+    width: 5vw;
+    left: 18%;
+    top: 44%;
+}
+.c3{
+    position: absolute;
+    width: 8vw;
+    left: 15%;
+    top: 70%;
+}
+.c4{
+    position: absolute;
+    width: 6.8vw;
+    right: 4%;
+    top: 7%;
+}
+.c5{
+    position: absolute;
+    width: 8vw;
+    top: 100%;
+    left: 35%;
+}
+.c6{
+    position: absolute;
+    width: 6vw;
+   left: 18%;
+   top: 10%;
+}
+.c7{
+    position: absolute;
+    width: 7vw;
+    top: 63%;
+    right: 2%;
+}
+.c8{
+    position: absolute;
+    width: 6vw;
+    right: 2%;
+    top:40%;
+}
+.c9{
+    position: absolute;
+    width: 8vw;
+    left: 1%;
+    top: 20%;
+}
+.c10{
+    position: absolute;
+    width: 9vw;
+    right: 16%;
+    top: 75%;
+}
+.c11{
+    position: absolute;
+    width: 8.8vw;
+    left: 73%;
+    top: 16%;
+    z-index: 2;
+}
+.c12{
+    position: absolute;
+    width: 5%;
+    top: 50%;
+    right: 18%;
+}
+.text-cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0vw;
+    position: relative;
+}
+.upr img{
+    width: 40vw;
+    transform: translateY(4vw);
+}
+.low img{
+    width: 47vw;
+}
+.btn img {
+    width: 15vw;
+    margin-top: 3vw;
+}
+/* ---------end-sec---- */
+.endd{
+    display: none;
+
+}
+.lft img{
+    width: 28vw;
+}
+.rght img{
+    width: 29vw;
+}
+
+
+.c5{
+    position: absolute;
+    width: 8vw;
+    left: 30%;
+    top: 90%;
+}
+
+/* ---------------- */
+@media (min-width:1200px)and (max-width:2540px){
+.main-bg{
+    background-image: url(../images/bg.png); 
+    background-size: cover; 
+    background-position:center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    position: relative;
+    height: 220dvh; 
+    /* background-attachment: fixed; */
+
+
+}
+}
+/* ---------- */
+@media (min-width:1100px)and (max-width:1200px){
+    .main-bg{
+        background-image: url(../images/bg.png); 
+        background-size: cover; 
+        background-position:center;
+        background-repeat: no-repeat; 
+        width: 100%;
+        position: relative;
+        height: 190dvh; 
+        /* background-attachment: fixed; */
+    
+    
+    }
+    }
+    /* ---------- */
+@media (min-width:1000px)and (max-width:1100px){
+    .main-bg{
+        background-image: url(../images/bg.png); 
+        background-size: cover; 
+        background-position:center;
+        background-repeat: no-repeat; 
+        width: 100%;
+        position: relative;
+        height: 176dvh; 
+        /* background-attachment: fixed; */
+    
+    
+    }
+    }
+    /* ---------- */
+    @media (min-width:920px)and (max-width:1000px){
+        .main-bg{
+            background-image: url(../images/bg.png); 
+            background-size: cover; 
+            background-position:center;
+            background-repeat: no-repeat; 
+            width: 100%;
+            position: relative;
+            height: 160dvh; 
+            /* background-attachment: fixed; */
+        
+        
+        }
+        }
+/* ---------- */
+@media (min-width:810px)and (max-width:920px){
+    .main-bg{
+        background-image: url(../images/bg.png); 
+        background-size: cover; 
+        background-position:center;
+        background-repeat: no-repeat; 
+        width: 100%;
+        position: relative;
+        height: 150dvh; 
+        /* background-attachment: fixed; */
+    
+    
+    }
+    }
+ @media (min-width:760px)and (max-width:810px){
+        .main-bg{
+            background-image: url(../images/bg.png); 
+            background-size: cover; 
+            background-position:center;
+            background-repeat: no-repeat; 
+            width: 100%;
+            position: relative;
+            height: 135dvh; 
+            /* background-attachment: fixed; */
+        
+        
+        }
+}
+/* --------- */
+@media (min-width:700px)and (max-width:760px){
+    .main-bg{
+        background-image: url(../images/bg.png); 
+        background-size: cover; 
+        background-position:center;
+        background-repeat: no-repeat; 
+        width: 100%;
+        position: relative;
+        height: 120dvh; 
+        /* background-attachment: fixed; */
+    
+    
+    }
+}
+/* --------- */
+@media (min-width:650px)and (max-width:700px){
+    .main-bg{
+        background-image: url(../images/bg.png); 
+        background-size: cover; 
+        background-position:center;
+        background-repeat: no-repeat; 
+        width: 100%;
+        position: relative;
+        height: 110dvh; 
+        /* background-attachment: fixed; */
+    
+    
+    }
+}
+@media (min-width:600px)and (max-width:650px){
+    .main-bg{
+        background-image: url(../images/bg.png); 
+        background-size: cover; 
+        background-position:center;
+        background-repeat: no-repeat; 
+        width: 100%;
+        position: relative;
+        height: 105dvh; 
+        /* background-attachment: fixed; */
+    
+    
+    }
+    }
+/* ---------------- */
+
+
+@media (max-width:600px){
+    
+    .main-bg{
+        background-image: url(../images/ok.png);
+        background-size: cover;
+        background-position:center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative; 
+        /* height: 90%; */
+         height: 120dvh;    
+    }
+    .end{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50vw;
+    
+    
+    }
+    .lft img{
+        width: 30vw;
+        transform: rotate(90deg);
+        
+    }
+    .rght img{
+        width: 31vw;
+        transform: rotate(-90deg);
+        
+    }
+    .endd{
+        position: relative;
+    }
+    .l1{
+        width: 28.5vw;
+        position: absolute;
+        left:-4.6%;
+        top: 100%;
+        transform: rotate(90deg)    
+    }
+    .l2{
+        width: 29vw;
+        /* margin-top: 10vw; */
+        position: absolute;
+        right: -5%;
+        top: 100%;
+        transform: rotate(-90deg);
+    }
+    .icns .fst img{
+        width: 19vw;
+        transform: translateX(3vw);
+        transition: .5s;
+    
+        
+    }
+    .icns .fst img{
+        width: 6vw;
+        transition: .3s;
+    
+        
+    }
+    .c1{
+        position: absolute;
+        width: 11.5vw;
+        left: 1%;
+        top: 8%;
+        animation: flash 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+    }
+    .c2{
+        position: absolute;
+        width: 7vw;
+        left: 4%;
+        top: 54%;
+    }
+    .c3{
+        position: absolute;
+        width: 10vw;
+        left: 29%;
+        top: 110%;
+        /* animation: flash 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate; */
+    }
+    .c4{
+        position: absolute;
+        width: 7vw;
+        right: 6%;
+        top: 7%;
+        animation: wobble 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+    }
+    .c5{
+        position: absolute;
+        width: 8vw;
+        top: 100%;
+        left: 35%;
+        display: none;
+
+    }
+    .c6{
+        position: absolute;
+        width: 7vw;
+       left: 18%;
+       top: 0%;
+       /* animation: flash 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate; */
+    }
+    .c7{
+        position: absolute;
+        width: 7vw;
+        top: 65%;
+        right: 3%;
+        animation: rotateIn 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+    }
+    .c8{
+        position: absolute;
+        width: 7vw;
+        right: 18%;
+        top:83%;
+        z-index: 2;
+        /* animation: flash 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate; */
+    }
+    .c9{
+        position: absolute;
+        width: 8vw;
+        left: 13%;
+        top: 27%;
+    }
+    .c10{
+        position: absolute;
+        width: 9.4vw;
+        right: 46%;
+        top:100%;
+        
+    }
+    .c11{
+        position: absolute;
+        width: 8.8vw;
+        left: 77%;
+        top: 27%;
+        z-index: 2;
+    }
+    .c12{
+        position: absolute;
+        width: 8vw;
+        top: 80%;
+        left: 3%;
+        z-index: 2;
+        animation: wobble 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+    }
+    .text-cntr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0vw;
+        position: relative;
+    }
+    .upr img{
+        width: 58vw;
+        transform: translateY(4vw);
+    }
+    .low img{
+        width: 65vw;
+    }
+    .btn img {
+        width: 18vw;
+        margin-top: 3vw;
+    }
+
+}
+@media (min-width:470px) and (max-width:512px){
+    
+    .main-bg{
+        background-image: url(../images/ok.png);
+        background-size: cover;
+        background-position:center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative; 
+        /* height: 90%; */
+         height: 114dvh;    
+    }
+    .c8{
+        position: absolute;
+        width: 7vw;
+        right: 18%;
+        top:82%;
+        z-index: 2;
+    }
+}
+/* ---------- */
+@media (min-width:460px) and (max-width:470px){
+    
+    .main-bg{
+        background-image: url(../images/ok.png);
+        background-size: cover;
+        background-position:center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative; 
+        /* height: 90%; */
+         height: 109dvh;    
+    }
+    .c8{
+        position: absolute;
+        width: 7vw;
+        right: 18%;
+        top:81%;
+        z-index: 2;
+    }
+}
+
+
+
+
+@media (min-width:445px) and (max-width:460px){
+    
+    .main-bg{
+        background-image: url(../images/ok.png);
+        background-size: cover;
+        background-position:center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative; 
+        /* height: 90%; */
+         height: 106dvh;    
+    }
+    .c8{
+        position: absolute;
+        width: 7vw;
+        right: 18%;
+        top:81%;
+        z-index: 2;
+    }
+}
+
+
+
+
+@media (min-width:425px) and (max-width:445px){
+    
+    .main-bg{
+        background-image: url(../images/ok.png);
+        background-size: cover;
+        background-position:center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative; 
+        /* height: 90%; */
+         height: 100dvh;    
+    }
+    .c8{
+        position: absolute;
+        width: 7vw;
+        right: 18%;
+        top:81%;
+        z-index: 2;
+    }
+}
+
+
+@media (min-width:400px) and (max-width:425px){
+    
+    .main-bg{
+        background-image: url(../images/ok.png);
+        background-size: cover;
+        background-position:center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative; 
+        /* height: 90%; */
+         height: 100dvh;    
+    }
+    .c8{
+        position: absolute;
+        width: 7vw;
+        right: 18%;
+        top:81%;
+        z-index: 2;
+    }
+    .l1{
+        width: 30vw;
+        position: absolute;
+        left:-4.6%;
+        top: 100%;
+        transform: rotate(90deg);
+        margin-top: 5vw;  
+    }
+    .l2{
+        width: 31vw;
+        /* margin-top: 10vw; */
+        position: absolute;
+        right: -5%;
+        top: 100%;
+        transform: rotate(-90deg);
+        margin-top: 5vw;
+    }
+}
+
+
+
+
+
+@media (min-width:376px) and (max-width:400px){
+    
+    .main-bg{
+        background-image: url(../images/ok.png);
+        background-size: cover;
+        background-position:center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative; 
+        /* height: 90%; */
+         height: 100dvh;    
+    }
+    .c8{
+        position: absolute;
+        width: 7vw;
+        right: 18%;
+        top:81%;
+        z-index: 2;
+    }
+    .l1{
+        width: 30vw;
+        position: absolute;
+        left:-4.6%;
+        top: 100%;
+        transform: rotate(90deg);
+        margin-top: 45px;  
+    }
+    .l2{
+        width: 31vw;
+        /* margin-top: 10vw; */
+        position: absolute;
+        right: -5%;
+        top: 100%;
+        transform: rotate(-90deg);
+        margin-top: 45px;
+    }
+}
+
+
+
+
+@media (min-width:320px) and (max-width:376px){
+    
+    .main-bg{
+        background-image: url(../images/ok.png);
+        background-size: cover;
+        background-position:center top;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative; 
+        /* height: 90%; */
+         height: 100dvh;    
+    }
+    .c8{
+        position: absolute;
+        width: 7vw;
+        right: 18%;
+        top:81%;
+        z-index: 2;
+    }
+    .l1{
+        width: 36vw;
+        position: absolute;
+        left:-6%;
+        top: 100%;
+        transform: rotate(90deg);
+        margin-top: 45px;  
+    }
+    .l2{
+        width: 37vw;
+        /* margin-top: 10vw; */
+        position: absolute;
+        right: -7%;
+        top: 100%;
+        transform: rotate(-90deg);
+        margin-top: 45px;
+    }
+}
